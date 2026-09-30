@@ -35,7 +35,9 @@
     },
     "root": {
       "level": "INFO",
-      "handlers": ["stderr"]
+      "handlers": [
+        "stderr"
+      ]
     }
   },
   "use_simulator": true,
@@ -45,7 +47,7 @@
   "simulated_temperature_module": true,
   "simulated_thermocycler": true,
   "simulated_gripper": true,
-  "with_robot_server": true,
+  "with_robot_server": false,
   "robot_server_tcp_port": 31950,
   "lock_timeout_s": 10,
   "labware_movement_config": null,
